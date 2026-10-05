@@ -34,8 +34,14 @@
   display: block;
 }
 
-.text-container {
+.text-container-s {
   flex: 1;                 /* Automatically takes up the remaining 75% space */
+  /* If you want the text blocks inside to go down vertically, they will naturally do so now */
+}
+
+.text-container-m {
+  flex: 1;                 /* Automatically takes up the remaining 75% space */
+  text-align: right; 
   /* If you want the text blocks inside to go down vertically, they will naturally do so now */
 }
 
