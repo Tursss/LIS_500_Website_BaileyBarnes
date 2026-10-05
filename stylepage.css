@@ -16,8 +16,17 @@
   clear: both;
 }
 
-div img {
-  max-width: 100%;
-  height: auto;
-  display: block; /* Removes unwanted whitespace at the bottom of the image */
+.flex-container {
+  display: flex;
+  align-items: flex-start; /* Aligns text to the top of the image */
+  gap: 15px;               /* Adds spacing between image and text */
+}
+
+.flex-container img {
+  width: 25%;
+  height: auto;            /* Keeps the image aspect ratio intact */
+}
+
+.flex-container p {
+  flex: 1;                 /* Takes up the remaining 75% of the space and wraps automatically */
 }
