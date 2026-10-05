@@ -18,15 +18,24 @@
 
 .flex-container {
   display: flex;
-  align-items: flex-start; /* Aligns text to the top of the image */
-  gap: 15px;               /* Adds spacing between image and text */
+  align-items: flex-start; /* Keeps content aligned at the top */
+  gap: 30px;               /* Adds clean spacing between image and text */
+  width: 100%;
 }
 
-.flex-container img {
+.image-column {
   width: 25%;
-  height: auto;            /* Keeps the image aspect ratio intact */
+  flex-shrink: 0;          /* Prevents the image container from being squished */
 }
 
-.flex-container p {
-  flex: 1;                 /* Takes up the remaining 75% of the space and wraps automatically */
+.image-column img {
+  width: 100%;             /* Fills the 25% container perfectly */
+  height: auto;
+  display: block;
 }
+
+.text-column {
+  flex: 1;                 /* Automatically takes up the remaining 75% space */
+  /* If you want the text blocks inside to go down vertically, they will naturally do so now */
+}
+
