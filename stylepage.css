@@ -25,7 +25,7 @@
 
 .image-container {
   width: 25%;
-  flex-shrink: 0;          /* Prevents the image container from being squished */
+  flex-shrink: 0;
 }
 
 .image-container img {
@@ -36,12 +36,34 @@
 
 .text-container-s {
   flex: 1;                 /* Automatically takes up the remaining 75% space */
-  /* If you want the text blocks inside to go down vertically, they will naturally do so now */
 }
 
 .text-container-m {
   flex: 1;                 /* Automatically takes up the remaining 75% space */
   text-align: right; 
-  /* If you want the text blocks inside to go down vertically, they will naturally do so now */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
 }
 
