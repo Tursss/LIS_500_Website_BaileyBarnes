@@ -15,3 +15,9 @@
   display: table;
   clear: both;
 }
+
+div img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Removes unwanted whitespace at the bottom of the image */
+}
