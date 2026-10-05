@@ -23,18 +23,18 @@
   width: 100%;
 }
 
-.image-column {
+.image-container {
   width: 25%;
   flex-shrink: 0;          /* Prevents the image container from being squished */
 }
 
-.image-column img {
+.image-container img {
   width: 100%;             /* Fills the 25% container perfectly */
   height: auto;
   display: block;
 }
 
-.text-column {
+.text-container {
   flex: 1;                 /* Automatically takes up the remaining 75% space */
   /* If you want the text blocks inside to go down vertically, they will naturally do so now */
 }
