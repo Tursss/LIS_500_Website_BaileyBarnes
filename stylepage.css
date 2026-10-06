@@ -86,7 +86,8 @@ body {
   text-align: center;
 }
 
-.content image {
+.content img {
+  display: block;
   margin: auto;
   width: 50%;
 }
