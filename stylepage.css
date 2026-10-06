@@ -91,3 +91,7 @@ body {
   margin: auto;
   width: 50%;
 }
+
+.page-content {
+  padding:10px;
+}
