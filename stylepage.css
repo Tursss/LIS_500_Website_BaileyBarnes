@@ -72,3 +72,10 @@ header h1, header h3 {
   margin:0;
 }
 
+header {
+  padding: 8px;
+}
+
+body {
+  margin: 0;
+}
