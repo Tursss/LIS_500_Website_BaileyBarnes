@@ -82,6 +82,11 @@ body {
   margin: 0;
 }
 
-.centered {
+.content {
   text-align: center;
+}
+
+.content image {
+  margin: auto;
+  width: 50%;
 }
