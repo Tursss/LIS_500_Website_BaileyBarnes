@@ -67,7 +67,7 @@ header ul li a:hover {
   background-color: #111111;
 }
 
-:heading {
+header :heading {
   color: darkblue;
   font-family: sans-serif;
   margin:0;
