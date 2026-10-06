@@ -67,7 +67,7 @@ nav ul li a:hover {
   background-color: #111111;
 }
 
-nav h1, header h3 {
+header h1, header h3 {
   font-family: sans-serif;
   margin:0;
 }
