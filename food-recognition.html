@@ -45,21 +45,14 @@
 
     <!-- Left, AI Classifier -->
     <section class="food-classifier">
-
-      <button id="start-camera" type="button">
-        Start Camera
-      </button>
-
-      <div id="webcam-container"></div>
-
-      <h3>Your Fruit Is</h3>
-
-      <p id="prediction-result">
-        Waiting for a prediction...
-      </p>
-
-      <div id="fruit-image"></div>
-
+        <button id="start-camera" type="button" onclick="init()">
+            Start Camera
+          </button>          
+          <div id="webcam-container"></div>
+          
+          <h3>Your Fruit Is</h3>          
+          <div id="label-container"></div>
+          <div id="fruit-image"></div>
     </section>
 
     <!-- Right, How-to Video + Analysis -->
