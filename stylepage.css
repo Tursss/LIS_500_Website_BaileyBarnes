@@ -186,3 +186,113 @@ nav ul li a:hover {
   height: 220px;
   border: none;
 }
+
+/* AI Food Recognition Project Page */
+
+.food-page {
+  max-width: 1100px;
+  margin: 35px auto;
+  padding: 0 20px;
+}
+
+/* Intro box */
+.food-intro {
+  background: white;
+  border: 3px solid #777;
+  border-radius: 7px;
+  min-height: 260px;
+  padding: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* dual columns */
+.food-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.7fr;
+  gap: 35px;
+  align-items: start;
+}
+
+/* Shared box styling */
+.food-classifier,
+.food-video,
+.food-analysis {
+  background: white;
+  border: 3px solid #777;
+  border-radius: 7px;
+  padding: 25px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Left  column */
+.food-classifier {
+  min-height: 680px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#start-camera {
+  background: white;
+  border: 3px solid #777;
+  border-radius: 8px;
+  padding: 40px 20px;
+  margin: 30px 0;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+#start-camera:hover {
+  background: #cce3de;
+}
+
+#webcam-container {
+  max-width: 100%;
+}
+
+#webcam-container canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+#fruit-image img {
+  max-width: 160px;
+  height: auto;
+}
+
+/* Right column */
+.food-right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.food-video {
+  min-height: 210px;
+}
+
+.food-analysis {
+  min-height: 550px;
+}
+
+/* Mobile  */
+@media (max-width: 768px) {
+  .food-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .food-intro {
+    min-height: 200px;
+  }
+
+  .food-classifier,
+  .food-analysis {
+    min-height: 350px;
+  }
+}
