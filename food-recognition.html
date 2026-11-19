@@ -25,12 +25,64 @@
     </ul>
   </nav>
 
-  <main>
-    <h1>Fruit Recognition Image Classifying Algorithm</h1>
-    <p>Are you an apple or banana person? Either way, this tool
-    attempts to identify images of these two fruits using a
-    machine learning model.</p>
-  </main>
+  <main class="food-page">
 
+  <!-- Intro -->
+  <section class="food-intro">
+    <h2>Fruit Recognition Image Classifying Algorithm</h2>
+
+    <p>
+      Are you an apple or banana person? Either way, this tool
+      can identify images of these two fruits using a machine
+      learning model. It was trained on multiple images of each
+      fruit to recognize their distinguishing features.
+      Give it a try and see if it can correctly identify your image!
+    </p>
+  </section>
+
+  <!-- Dual column content -->
+  <div class="food-layout">
+
+    <!-- Left, AI Classifier -->
+    <section class="food-classifier">
+
+      <button id="start-camera" type="button">
+        Start Camera
+      </button>
+
+      <div id="webcam-container"></div>
+
+      <h3>Your Fruit Is</h3>
+
+      <p id="prediction-result">
+        Waiting for a prediction...
+      </p>
+
+      <div id="fruit-image"></div>
+
+    </section>
+
+    <!-- Right, How-to Video + Analysis -->
+    <div class="food-right-column">
+
+      <section class="food-video">
+        <h3>How-to Video:</h3>
+        <div id="video-container">
+          <!-- Video where -->
+        </div>
+      </section>
+
+      <section class="food-analysis">
+        <h3>Project Analysis</h3>
+        <p>
+          Analysis and observations will be added here.
+        </p>
+      </section>
+
+    </div>
+
+  </div>
+
+</main>
 </body>
 </html>
